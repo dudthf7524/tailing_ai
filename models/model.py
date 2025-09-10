@@ -84,6 +84,7 @@ def is_person_image(image_bytes: bytes, threshold: float = PERSON_THRESHOLD) -> 
 
 def classification(image_bytes: bytes):
     print("[classification] Called")
+    conf=0.9962638020515442
     try:
         # 1) 사람 이미지 프리필터(차단)
         if PERSON_FILTER_ENABLED:
@@ -92,9 +93,9 @@ def classification(image_bytes: bytes):
                 print("[classification] Person detected → Blocking classification")
                 return {
                     "blocked": True,
-                    "predicted_class": 0,
-                    "confidence": "0.0",
-                    "class_index": "X",
+                    "predicted_class": "person",
+                    "confidence": f"{conf:.4f}",
+                    "class_index": 0,
                 }
 
         # 2) 분류 실행
@@ -117,7 +118,9 @@ def classification(image_bytes: bytes):
 
         ans_idx = int(probs.top1)
         conf = float(probs.top1conf.item()) if hasattr(probs, "top1conf") else float(probs.data[ans_idx].item())
+        print("conf", conf)
         predicted_class_name = class_names[ans_idx] if class_names and ans_idx < len(class_names) else str(ans_idx)
+
 
         print(f"[classification] Predicted idx={ans_idx}, name={predicted_class_name}, conf={conf}")
 
