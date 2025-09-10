@@ -84,7 +84,7 @@ def is_person_image(image_bytes: bytes, threshold: float = PERSON_THRESHOLD) -> 
 
 def classification(image_bytes: bytes):
     print("[classification] Called")
-    conf=0.9962638020515442
+    conf=0.00000000000000
     try:
         # 1) 사람 이미지 프리필터(차단)
         if PERSON_FILTER_ENABLED:
