@@ -61,8 +61,9 @@ def is_person_image(image_bytes: bytes, threshold: float = PERSON_THRESHOLD) -> 
     print("[is_person_image] Called")
     try:
         image = Image.open(io.BytesIO(image_bytes)).convert("RGB")
-        print("[is_person_image] Image opened successfully")
-        results = person_detector(image, verbose=False)
+        print(f"[is_person_image] Image opened successfully, size: {image.size}")
+        # 224x224 작은 이미지도 처리할 수 있도록 imgsz를 더 작게 설정
+        results = person_detector(image, imgsz=IMAGE_SIZE, verbose=False)
         print(f"[is_person_image] Detection results: {results}")
         boxes = getattr(results[0], "boxes", None)
         if boxes is None:
