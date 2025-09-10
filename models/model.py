@@ -93,7 +93,7 @@ def classification(image_bytes: bytes):
                 return {
                     "blocked": True,
                     "predicted_class": 0,
-                    "confidence": 0.0,
+                    "confidence": "0.0",
                     "class_index": "X",
                 }
 
