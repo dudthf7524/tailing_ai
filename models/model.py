@@ -92,8 +92,9 @@ def classification(image_bytes: bytes):
                 print("[classification] Person detected → Blocking classification")
                 return {
                     "blocked": True,
-                    "reason": "person_detected",
-                    "message": "사람 이미지가 감지되어 처리하지 않습니다.",
+                    "predicted_class": 0,
+                    "confidence": 0.0,
+                    "class_index": "X",
                 }
 
         # 2) 분류 실행
