@@ -1,0 +1,255 @@
+[
+  {
+    "section_id": "A1",
+    "section_name": "구진 및 플라크 (Papules and Plaques)",
+    "diseases": [
+      {
+        "disease_name": "표재성 농피증 (Superficial Pyoderma)",
+        "description": "구진은 일반적으로 모낭을 중심으로 발생하며 붉은색(erythematous)을 띠고 농포나 상피성 잔고리(epidermal collarette)를 동반할 수 있는 발진입니다. 다모증에 부분적인 탈모를 동반할 수 있으며, 모낭염을 통해 모낭충 감염(cocci)과 동반되기도 합니다. [1, 2]",
+        "pruritus": "보통",
+        "alopecia": true,
+        "odor": false
+      },
+      {
+        "disease_name": "벼룩 알레르기 피부염 (Flea Allergy Dermatitis, FAD)",
+        "description": "구진성 발진을 특징으로 하는 벼룩 타액에 대한 염증 반응입니다. 심한 소양감과 함께 구진이 나타나며, 병변은 주로 몸통 전체에 발생하고 심한 가려움증, 붉어짐, 두드러기, 피부 흉터, 비늘, 탈모, 태선화가 동반될 수 있습니다. [2, 3]",
+        "pruritus": "심함",
+        "alopecia": true,
+        "odor": false
+      },
+      {
+        "disease_name": "개선충증 (Sarcoptic Mange, scabies)",
+        "description": "심한 소양감과 함께 구진이 주요 특징으로 나타나는 질환입니다. 병변은 주로 팔꿈치, 발목, 귀 가장자리, 복부, 가슴 부위에 집중되며, 탈모, 출혈성 딱지, 홍반이 동반될 수 있습니다. [3, 4]",
+        "pruritus": "심함",
+        "alopecia": true,
+        "odor": false
+      },
+      {
+        "disease_name": "아토피 피부염 (Atopic Dermatitis, 식이 알레르기)",
+        "description": "구진은 알레르기성 피부염에서 흔히 관찰되는 일차 병변이며 종종 홍반을 동반합니다. 만성적이고 염증성이며 소양감을 유발하는 질환으로, 주로 얼굴(입 주변, 눈 주변), 귓바퀴, 겨드랑이, 서혜부, 발에 병변이 나타납니다. [3]",
+        "pruritus": "심함",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "유두종 바이러스성 유성 플라크 (Papillomavirus-induced oily plaques)",
+        "description": "다수의 민색, 회색 또는 노란색(macule) 플라크와 때로는 구진으로 구성된 병변입니다. 주로 목, 몸통, 복부, 그리고 사지에 위치하며, 과각화(hyperkeratotic)되어 편평하거나 약간 융기되어 있습니다. [2]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      }
+    ]
+  },
+  {
+    "section_id": "A2",
+    "section_name": "인설성 질환 (비듬, 각질, 상피성 잔고리)",
+    "diseases": [
+      {
+        "disease_name": "표재성 농피증 (Superficial Pyoderma)",
+        "description": "상피성 잔고리가 이 질환의 특징적인 병변(hallmark lesion)이며, 다수의 잔고리가 융합되면 넓은 '지도 모양'의 탈모와 인설 부위를 형성할 수 있습니다. 원형 또는 벗겨지는 테두리를 가진 상피성 잔고리가 특징적이며, 다발성으로 몸통과 복부에 분포합니다. [5, 6]",
+        "pruritus": "보통",
+        "alopecia": true,
+        "odor": false
+      },
+      {
+        "disease_name": "지루성 피부염 (Seborrhea)",
+        "description": "비정상적인 각화 과정으로 인해 과도한 인설이 형성되는 것을 특징으로 합니다. 건성 지루(seborrhea sicca)는 건조하고 하얀색 인설과 산패한 기름 냄새를 특징으로 하며, 유성 지루(seborrhea oleosa)는 기름진 피부와 노란-갈색의 인설, 산패한 기름 냄새를 특징으로 합니다. 등, 몸통, 피부 주름에 분포합니다. [5, 6]",
+        "pruritus": "보통",
+        "alopecia": true,
+        "odor": true
+      },
+      {
+        "disease_name": "말라세지아 피부염 (Malassezia Dermatitis)",
+        "description": "효모 Malassezia pachydermatis의 과증식으로 인해 발생하며, 홍반, 중등도에서 심한 소양감, 기름지고 노란색을 띠는 인설을 동반합니다. 강한 퀴퀴한 냄새가 특징적이며, 피부 주름, 발가락 사이, 겨드랑이, 목 복측, 귓바퀴, 서혜부에 호발합니다. [6, 7]",
+        "pruritus": "심함",
+        "alopecia": false,
+        "odor": true
+      },
+      {
+        "disease_name": "어린선 (Ichthyosis)",
+        "description": "선천적/유전적 각화 이상 질환입니다. 피부가 크고 단단하게 부착된 판 모양의 인설로 덮여 있으며, 초기에는 흰색일 수 있으나 나이가 들면서 종종 회색이나 검은색으로 착색됩니다. 몸통 전체에 전반적으로 분포합니다. [6, 7]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "갑상선 기능 저하증 (Hypothyroidism)",
+        "description": "건조하고 미세하거나 중등도의 인설인 '비듬'을 특징으로 하며, 전반적, 몸통에 분포합니다. [6]",
+        "pruritus": "없음",
+        "alopecia": true,
+        "odor": false
+      }
+    ]
+  },
+  {
+    "section_id": "A3",
+    "section_name": "만성 피부 변화: 태선화 및 과다색소침착",
+    "diseases": [
+      {
+        "disease_name": "만성 알레르기성 피부염 (아토피 피부염, 식이 알레르기)",
+        "description": "태선화와 과다색소침착의 가장 흔한 원인 중 하나입니다. 가려움으로 인한 지속적인 자가 손상은 알레르기성 피부병의 특징적인 병변으로, 피부가 두껍고, 가죽 같고, 어두워지며 종종 털이 빠집니다. 홍반, 긁은 상처, 재발성 감염이 특징입니다. [8, 9]",
+        "pruritus": "심함",
+        "alopecia": true,
+        "odor": false
+      },
+      {
+        "disease_name": "만성 말라세지아 피부염 (Chronic Malassezia Dermatitis)",
+        "description": "염증성 알레르기성 피부염과 동시에 발생하여 이를 악화시킵니다. 말라세지아 감염은 염증과 소양감을 강력하게 유발하여 심각한 태선화와 과다색소침착을 초래하며, 종종 기름진 표면과 강한 냄새를 동반합니다. 태선화된 부위에 기름진 삼출물과 특징적인 퀴퀴한 냄새가 동반됩니다. [8, 9]",
+        "pruritus": "심함",
+        "alopecia": false,
+        "odor": true
+      },
+      {
+        "disease_name": "갑상선 기능 저하증 (Hypothyroidism)",
+        "description": "피부가 두꺼워지고(점액수종) 색소가 침착될 수 있으며, 전형적으로 소양감이 없는 대칭성 탈모를 동반합니다. 건조하고 부석한 피부를 특징으로 하며, 몸통, 마찰 부위에 주로 나타납니다. [9]",
+        "pruritus": "없음",
+        "alopecia": true,
+        "odor": false
+      },
+      {
+        "disease_name": "부신피질 기능 항진증 (Hyperadrenocorticism)",
+        "description": "피부가 종종 얇고 위축되어 있지만 때로는 과다색소침착을 동반합니다. 몸통, 마찰 부위에 주로 나타나며, 얇고 위축된 피부, 때때로 복부 팽만, 다뇨/다식, 피모 기력저하가 동반됩니다. [10]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      }
+    ]
+  },
+  {
+    "section_id": "A4",
+    "section_name": "농포 및 면포 (Pustules and Comedones)",
+    "diseases": [
+      {
+        "disease_name": "세균성 농피증 (표재성 모낭염) (Bacterial Pyoderma - Superficial Folliculitis)",
+        "description": "농포는 반려견에서 가장 흔한 원인 중 하나이며, 일반적으로 작고 모낭을 중심으로 형성됩니다. 뾰루지, 겨드랑이, 서혜부에서 흔히 관찰되며, 모낭성 농포와 동일 부위에 구진 및 상피성 잔고리가 함께 존재합니다. [10, 11]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "모낭충증 (Demodicosis)",
+        "description": "Demodex canis 모낭충의 과증식이 심각한 염증 반응을 유발하며, 탈모, 홍반, 비늘이 주된 병변입니다. 농포나 면포도 관찰될 수 있으며, 얼굴, 발, 전신에 분포합니다. [11, 12]",
+        "pruritus": "없음",
+        "alopecia": true,
+        "odor": false
+      },
+      {
+        "disease_name": "낙엽성 천포창 (Pemphigus Foliaceus, PF)",
+        "description": "반려견에서 가장 흔한 자가면역 피부 질환으로, 일차 병변은 농포이지만 농포는 종종 크기가 크고 여러 모낭에 걸쳐 있으며, 반드시 모낭 중심적이지는 않습니다. 얼굴, 귀, 발바닥에 대칭적으로 발생하며 미란과 탈모를 동반합니다. [11, 12]",
+        "pruritus": "없음",
+        "alopecia": true,
+        "odor": false
+      },
+      {
+        "disease_name": "슈나우저 면포 증후군 (Schnauzer Comedone Syndrome)",
+        "description": "일차적인 각화 이상 질환으로, 등 중앙선과 등에 일차적인 면포가 다수 발생합니다. 이차 세균 감염이 발생하면 구진과 농포가 생길 수 있습니다. [11]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      }
+    ]
+  },
+  {
+    "section_id": "A5",
+    "section_name": "피부 결손: 미란 및 궤양 (Erosions and Ulcers)",
+    "diseases": [
+      {
+        "disease_name": "심부 농피증 및 절종증 (Deep Pyoderma and Furunculosis)",
+        "description": "세균 감염이 진피 깊숙이 확장되거나 모낭 파열을 유발할 때(절종증) 궤양 형성 및 고름이나 혈액성 삼출물을 배출하는 누관(draining tract) 형성으로 이어집니다. 주로 발가락 사이, 턱, 주둥이, 앞발 부위에 호발합니다. [13, 14]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "반려견 홍반 루푸스 (DLE) (Discoid Lupus Erythematosus)",
+        "description": "코에 색소 소실, 홍반, 인설 및 미란을 유발하는 질환이며, 주로 코와 콧등에 발생합니다. [14, 15]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "심상성 천포창 (Pemphigus Vulgaris)",
+        "description": "피부 점막 경계부(입술, 콧구멍, 항문)와 구강 내에 소수포 및 궤양을 유발하는 심각한 자가면역 질환입니다. [14, 15]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "혈관염 (Vasculitis)",
+        "description": "혈관의 염증으로 치명적이며 궤양과 괴사로 이어질 수 있습니다. 전형적으로 귓바퀴 끝, 꼬리 끝, 또는 발바닥에 발생하며 '펀치로 뚫은 듯한' 외관을 보입니다. [14, 15]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "편평상피암 (Squamous Cell Carcinoma, SCC)",
+        "description": "여러 종양 중 햇볕에 노출된 부위에 가장 흔한 악성 종양이며 궤양화됩니다. 단단하고 성장하는 종양이나 궤양이 나타나며, 귓바퀴, 코, 몸통, 사지에 발생합니다. [14, 15]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "욕창 (Decubitus Ulcers)",
+        "description": "대형견이나 누워 지내는 개의 뼈 돌출부(팔꿈치, 발목, 엉덩이) 위에서 만성적인 압력으로 인해 발생하는 질환입니다. 피부에 근육성 괴사가 형성되며, 누워 지내는 병력이 있습니다. [15, 16]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      }
+    ]
+  },
+  {
+    "section_id": "A6",
+    "section_name": "결절 및 종괴 (Nodules and Masses)",
+    "diseases": [
+      {
+        "disease_name": "진균성 각화증 (Fungal Kerion)",
+        "description": "피부사상균(곰팡이) 감염에 대한 결절성, 물렁물렁함(boggy), 종종 삼출물이 나오는 염증 반응으로, 감염된 모낭이 파열되어 발생합니다. 육아종성 염증이며 비신생물성(감염성)입니다. [16, 17]",
+        "pruritus": "없음",
+        "alopecia": true,
+        "odor": false
+      },
+      {
+        "disease_name": "무균성 결절성 지방층염 (Sterile Nodular Panniculitis, SNP)",
+        "description": "피하 지방의 염증으로, 단일 또는 다수의 깊은 결절로 나타나며, 이 결절은 터져서 기름지고 투명한 액체를 배출할 수 있습니다. 육아종성 염증이며 비신생물성(감염성)입니다. [16]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "비만세포종 (Mast Cell Tumor, MCT)",
+        "description": "반려견에서 가장 흔한 악성 피부 종양입니다. 외부적으로 매우 다양하게 나타나는데, 붉은색/분홍색 결절, 때로는 궤양을 동반하거나, 피부 병변처럼 부드러운 피하 종괴로 나타날 수 있으며, 히스타민 방출로 인해 종종 가려움증이 나타날 수 있습니다. [17, 18]",
+        "pruritus": "보통",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "피부 조직구종 (Cutaneous Histiocytoma)",
+        "description": "일반적으로 3세 미만의 어린 개에서 흔한 양성 종양입니다. 전형적으로 단독성으로, 빠르게 성장하는 분홍색-붉은색의 털이 없는 '단추 모양'의 결절로 나타나며, 머리, 귀, 사지에 주로 발생합니다. [17, 18]",
+        "pruritus": "없음",
+        "alopecia": true,
+        "odor": false
+      },
+      {
+        "disease_name": "지방종 (Lipoma)",
+        "description": "지방 세포로 구성된 매우 흔한 양성 종양입니다. 부드럽고, 움직이며, 경계가 명확한 피하 종괴로 나타나며, 몸통, 가슴, 복부에 주로 발생합니다. [17, 18]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "피지샘종 (Sebaceous Gland Adenoma)",
+        "description": "표피성 이개에서 흔하게 나타나는 양성 종양입니다. 분홍색이며 기름지고 사마귀 모양 또는 콜리플라워 모양을 가집니다. 머리, 몸통, 사지에 나타납니다. [17, 18]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      },
+      {
+        "disease_name": "진균종성 농포 (Fungal Granuloma/Nodule)",
+        "description": "단단하고 물렁물렁한 결절이며, 종종 궤양이나 누공을 동반합니다. 얼굴과 발에 나타나며 염증성으로, 비신생물성(감염성)입니다. [17]",
+        "pruritus": "없음",
+        "alopecia": false,
+        "odor": false
+      }
+    ]
+  }
+]

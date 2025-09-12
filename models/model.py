@@ -92,7 +92,7 @@ def classification(image_bytes: bytes):
             if is_person_image(image_bytes, PERSON_THRESHOLD):
                 print("[classification] Person detected → Blocking classification")
                 return {
-                    "blocked": True,
+                    "all_predict": {}, 
                     "predicted_class": "person",
                     "confidence": f"{conf:.4f}",
                     "class_index": 0,
@@ -119,18 +119,67 @@ def classification(image_bytes: bytes):
         ans_idx = int(probs.top1)
         conf = float(probs.top1conf.item()) if hasattr(probs, "top1conf") else float(probs.data[ans_idx].item())
         print("conf", conf)
-        predicted_class_name = class_names[ans_idx] if class_names and ans_idx < len(class_names) else str(ans_idx)
+        predicted_class_name = class_names[ans_idx]
+
+        all_probs = probs.data.tolist()
+        all_predict = {
+            class_names[i]: prob for i, prob in enumerate(all_probs)
+        }
 
 
         print(f"[classification] Predicted idx={ans_idx}, name={predicted_class_name}, conf={conf}")
 
         return {
-            "blocked": False,
             "predicted_class": predicted_class_name,
             "confidence": f"{conf:.4f}",
             "class_index": ans_idx,
+            "all_predict": all_predict, 
         }
 
     except Exception as e:
         print(f"[classification][ERROR] {e}")
         return {"error": str(e)}
+
+
+
+# /app/model.py
+# from config import config
+# import io
+# from PIL import Image
+# from ultralytics import YOLO
+
+# MODEL_PATH = config.MODEL_PATH
+# IMAGE_SIZE = config.IMAGE_SIZE
+# model = YOLO(MODEL_PATH)
+# class_names = config.class_names
+
+# # skin
+# def classification(image_bytes: bytes):
+#     try:
+#         # 이미지 입력
+#         image = Image.open(io.BytesIO(image_bytes))
+#         # 예측
+#         results = model(image, imgsz = IMAGE_SIZE, verbose=False)
+   
+#         result = results[0]
+#         probs = result.probs
+#         print(probs)
+#         ans_idx = probs.top1
+#         conf = probs.top1conf.item()
+#         predicted_class_name = class_names[ans_idx]
+
+#         # 모든 클래스별 예측 값
+#         all_probs = probs.data.tolist()
+#         all_predict = {
+#             class_names[i]: prob for i, prob in enumerate(all_probs)
+#         }
+
+#         return {
+#             "predicted_class": predicted_class_name,
+#             "confidence": f"{conf:.4f}",
+#             "class_index": ans_idx,
+#             "all_predict": all_predict, 
+#         }
+
+#     except Exception as e:
+#         print(f"Error : {e}")
